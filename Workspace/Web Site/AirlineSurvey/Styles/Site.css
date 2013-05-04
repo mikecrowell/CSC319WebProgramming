@@ -1,0 +1,97 @@
+﻿        body
+        {
+        font-size: 11px;
+        font-family: "trebuchet ms", helvetica, sans-serif;
+        color: #8C8C73;
+        line-height: 18px;
+        background-color:Blue;
+        }
+
+        #header
+        {
+	        position: absolute;
+	        background-image: url(Images/blue_background.jpg);
+	        background-repeat: repeat-x;
+	        left: 100px;
+	        width: 800px;
+	        height: 92px;
+	        color: #fff;
+        }
+
+        #header span
+        {
+        font-weight: normal;
+        font-size: 20px;
+        }
+
+        #header h1
+        {
+        position: absolute;
+        font-size: 25px;
+        letter-spacing: -1px;
+        top: 30px;
+        height: 92px;
+        }
+
+        #header h2
+        {
+        position: absolute;
+        font-size: 10px;
+        font-weight: normal;
+        color: #FCE2CA;
+        top: 51px;
+        left:20px;
+        }
+
+        #splash
+        {
+	        position: absolute;
+	        left: 300px;
+	        background-image: url(Images/airplane.jpg);
+	        background-repeat: repeat-x;
+	        width: 458px;
+	        height: 92px;
+	        background-color: white;
+        }
+
+        #innersplash
+        {
+	        position: absolute;
+	        right: 80px;
+	        width: 150px;
+	        height: 60px;
+	        font-size: 23px;
+	        letter-spacing: -1px;
+	        color: #fff;
+	        z-index: 10;
+	        text-align: right;
+        }
+
+        #primarycontent
+        {
+        position: absolute;
+        left: 100px;
+        top:120px;
+        width: 800px;
+        height: 800px;
+        background-color:White;
+        }
+
+        #primarycontent h3
+        {
+        position: relative;
+        top: 4px;
+        font-size: 18px;
+        line-height: 25px;
+        color: #656551;
+        letter-spacing: -1px;
+        padding: 10px 10px 10px 15px;
+        margin-bottom: 20px;
+        }
+
+        #primarycontent .content
+        {
+        padding: 0px 15px 0px 15px;
+        margin-bottom: 20px;
+        z-index: 20;
+        }
